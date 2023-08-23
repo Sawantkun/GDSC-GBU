@@ -4,7 +4,7 @@
         flex-direction: column;
         height: 100vh;
         justify-content: center;
-        position: relative;
+        position: fixed;
         padding: 20px;
     }
     #navbar .nav-logo{

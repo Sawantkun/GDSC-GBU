@@ -26,21 +26,6 @@ typewriter.typeString('Gautam Buddha University')
     }
     items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
-// navbar scroll dissappear
-var prevScrollpos = window.pageYOffset;
-
-window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.querySelector("#navbar").style.top = "0px";
-    document.querySelector(".hamburger").style.top = "0px";
-  } else {
-    document.querySelector("#navbar").style.top = "-80px";
-    document.querySelector(".hamburger").style.top = "-80px";
-  }
-  prevScrollpos = currentScrollPos;
-};
-
 
 
 
