@@ -30,7 +30,7 @@
         display: block;
         width: 40px;
         position: fixed;
-        top: 10px !important;
+        top: 7px !important;
         right: 20px;
         z-index: 100;
         transition: all 0.3s ease-in-out;
@@ -41,7 +41,7 @@
     }
     #navbar .develop{
         position: absolute;
-        bottom: 80px;
+        bottom: 120px;
         display: block;
         text-align: center;
         font-size: 1.2rem;
@@ -83,7 +83,7 @@
     }
     #about{
         height: 100%;
-        padding: 0px 0 150px 0;
+        padding: 0px 0 50px 0;
     }
     #about .about-content{
         flex-direction: column-reverse;
@@ -135,10 +135,10 @@
         display: block;
     }
     .dsc:first-of-type{
-        top: 250px;
+        top: 0px !important;
     }
     .dsc:last-of-type{
-        bottom: 250px;
+        bottom: 160px !important;
     }
 }
 @media screen and (max-width: 600px) {

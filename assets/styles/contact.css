@@ -1,5 +1,5 @@
 #contact{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     line-height: 60px;
     background-image: url("../media/GDG-Bevy-HomepageBanner_7Ijt5rW.png");
@@ -13,7 +13,7 @@
   flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 #contact .contact-content h4{

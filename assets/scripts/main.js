@@ -41,8 +41,13 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
-const hamburger = document.querySelector(".hamburger");
-const navbar = document.querySelector("#navbar");
-hamburger.addEventListener('click',()=>{
-  navbar.classList.toggle("display");
-})
+
+
+
+  // hamburger menu 
+  const hamburger = document.querySelector(".hamburger");
+  const navbar = document.querySelector("#navbar");
+  hamburger.addEventListener('click',()=>{
+    navbar.classList.toggle("display");
+    document.body.classList.toggle("disable-scroll")
+  })

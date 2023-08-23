@@ -35,3 +35,6 @@ body{
 .hidden{
     display: none;
 }
+.disable-scroll{
+    overflow-y: hidden !important;
+}
