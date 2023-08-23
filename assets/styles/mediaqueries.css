@@ -10,7 +10,8 @@
     #navbar .nav-logo{
         font-size: 2rem;
         position: absolute;
-        top: 100px;
+        top: 8px;
+        left: 0;
     }
     .hamburger{
         display: block;
@@ -25,6 +26,8 @@
         width: 30px;
     }
     #navbar .develop{
+        position: absolute;
+        bottom: 80px;
         display: block;
         text-align: center;
         font-size: 1.2rem;
