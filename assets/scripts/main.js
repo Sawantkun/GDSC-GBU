@@ -51,3 +51,8 @@ window.onscroll = function () {
     navbar.classList.toggle("display");
     document.body.classList.toggle("disable-scroll")
   })
+  
+  const link=()=>{
+  navbar.classList.remove("display");
+  document.body.classList.remove("disable-scroll")
+}

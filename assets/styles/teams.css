@@ -133,6 +133,10 @@
     height: 650px;
     transform: translateY(-219px) translateX(-50px);
 }
+.sid{
+    height: 500px;
+    transform: translateY(-181px) translateX(-120px);
+}
 .ishanp{
     margin: -25.6px 0 0 0px !important;
 }
@@ -156,4 +160,7 @@
 }
 .arthp{
     margin-left: 5px !important;
+}
+.sidp{
+    margin-left: -25px !important;
 }
