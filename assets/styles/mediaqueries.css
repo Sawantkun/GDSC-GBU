@@ -125,20 +125,14 @@
         justify-content: center;
         margin-top: 2rem;
     }
-    .outerbox{
-        display: none;
-    }
-    .lead{
-        display: grid !important;
-    }
-    .lead{
-        display: block;
-    }
     .dsc:first-of-type{
         top: 0px !important;
     }
     .dsc:last-of-type{
         bottom: 160px !important;
+    }
+    #contact{
+        height: 80vh;
     }
 }
 @media screen and (max-width: 600px) {

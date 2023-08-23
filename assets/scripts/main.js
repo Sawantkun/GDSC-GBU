@@ -4,13 +4,13 @@ var app = document.getElementById('typewriter');
 var typewriter = new Typewriter(app, {
     loop: true
 });
-typewriter.typeString('At Gautam Buddha University, Greater Noida')
+typewriter.typeString('Gautam Buddha University')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('A team of over 400+ enthusiastic members')
+    .typeString('A team of over 800+')
     .pauseFor(2500)
     .deleteAll(7)
-    .typeString('Doing wonders since 2022')
+    .typeString('Working since 2022')
     .start();
 
     // faq questions
