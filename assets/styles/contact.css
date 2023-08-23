@@ -1,0 +1,161 @@
+#contact{
+    height: 100vh;
+    width: 100%;
+    line-height: 60px;
+    background-image: url("../media/GDG-Bevy-HomepageBanner_7Ijt5rW.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#contact .contact-content{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+#contact .contact-content h4{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#contact .contact-content .contact-title{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+#contact .contact-content .socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#contact .contact-content .socials img{
+    width: 25px;
+    margin:50px 10px 0 10px;
+    cursor: pointer;
+    animation: dance2 2s infinite ;
+  }
+  .dsc:first-of-type{
+    width: 80px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    animation: dance2 2s infinite;
+  }
+  .dsc:last-of-type{
+    width: 80px;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    animation: dance2 2s infinite;
+  }
+  #contact .button{
+    margin: 30px 0 0 0px;
+    padding: 15px 20px;
+    border: solid #4688F1;
+    background-color: #4688F1;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+}
+#contact .button:hover{
+    border: solid #4e92ff;
+    background-color: #4e92ff;
+
+}
+.container {
+    margin: 0 auto;
+    padding:2rem 4rem;
+    width: 48rem;
+  }
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #4688F1;
+  }
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #4688F1;
+  }
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #4688F1;
+    border: 1px solid #4688F1;
+  }
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  .accordion button[aria-expanded='true'] {
+    color: #4688F1;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content .accord-text {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 30px !important;
+  }

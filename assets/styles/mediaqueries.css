@@ -1,0 +1,220 @@
+@media screen and (max-width: 900px) {
+    #navbar{
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        position: relative;
+        padding: 20px;
+    }
+    #navbar .nav-logo{
+        font-size: 2rem;
+        position: absolute;
+        top: 100px;
+    }
+    .hamburger{
+        display: block;
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 100;
+    }
+    #navbar .nav-logo img{
+        margin-bottom: 5px;
+        width: 30px;
+    }
+    #navbar .develop{
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    #navbar .nav-left,#navbar .nav-left-links ul{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #navbar .nav-right, #navbar .nav-right-links ul{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #navbar .nav-left .nav-left-links ul li{
+        padding-left:0px;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    #navbar .nav-right .nav-right-links ul li{
+        padding-right:0px;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    #home{
+       padding: 0px 0px;
+    }
+    
+    #home .home-content{
+       flex-direction: column-reverse;
+       justify-content: center;
+    }
+    #about{
+        height: 100%;
+        padding: 0px 0 150px 0;
+    }
+    #about .about-content{
+        flex-direction: column-reverse;
+    }
+    #about .about-content-right .about{
+        padding: 0 0 0 0;
+    }
+    #about .about-content-right h4{
+        padding: 0 0 0 0px;
+    }
+    #about .about-content-right p{
+        padding: 0 0 0 0px;
+    }
+    #about button{
+        margin: 30px 0 0 0px;
+    }
+    #about .about-content-left{
+        width: 100%;
+    }
+    #about .about-content-right{
+        width: 100%;
+        align-items: center;
+        padding: 0 0 50px 0;
+    }
+    .circle1,.circle2,.circle3,.circle4{
+        display: none;
+    }
+    #about p{
+        text-align: center;
+    }
+    #team{
+        padding: 1rem 3rem ;
+    }
+    .first{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .outerbox{
+        display: none;
+    }
+    .lead{
+        display: grid !important;
+    }
+    .lead{
+        display: block;
+    }
+    .dsc:first-of-type{
+        top: 250px;
+    }
+    .dsc:last-of-type{
+        bottom: 250px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #home .home-content{
+        text-align: center;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    #home .home-content-left h2{
+        font-size: 2rem;
+    }
+    #home .home-content-left h4{
+        font-size: 1rem;
+    }
+    #home .home-content-left p{
+        padding: 0 0 0 0;
+        line-height: 20px;
+    }
+    #home .home-content-right img{
+        width: 100%;
+    }
+    #about .about-content{
+        padding: 0 30px;
+    }
+    #about .about-content-right .about{
+        padding: 0 0 0 0;
+    }
+    #about .about-content-right h4{
+        font-size: 1.9rem;
+        line-height: 40px;
+        padding: 10px 0;
+    }
+    #about .about-content-right p{
+        padding: 0 0 0 0;
+        line-height: 20px;
+    }
+
+    #about .about-content-left {
+        width: 100%;
+    }
+    #events h4{
+        font-size: 1.9rem;
+    }
+    #teams{
+        padding: 1rem 3rem ;
+    }
+    #teams .first{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #teams h4{
+        font-size: 1.9rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .first{
+        display: grid;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .dsc:first-of-type{
+        top: 50px;
+        width: 50px;
+        left: 30px;
+    }
+    .dsc:last-of-type{
+        bottom: 50px;
+        width: 50px;
+        right: 30px;
+    }
+}
+@media (min-width: 40rem) {
+    #events ul {
+      grid-template-columns: 1fr var(--line-w) 1fr;
+    }
+    #events ul::before {
+      grid-column: 2;
+    }
+    #events ul li:nth-child(odd) {
+      grid-column: 1;
+    }
+    #events ul li:nth-child(even) {
+      grid-column: 3;
+    }
+  
+    /* start second card */
+    #events ul li:nth-child(2) {
+      grid-row: 2/4;
+    }
+    
+    #events ul li:nth-child(odd) .date::before {
+      clip-path:inset(10px 20px 30px 40px);
+      
+      left: 0;
+    }
+  
+    #events ul li:nth-child(odd) .date::after {
+      transform: translate(-50%, -50%);
+      left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+    }
+    #events ul li:nth-child(odd) .date {
+      border-radius:12px;
+    }
+  }
