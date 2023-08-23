@@ -8,10 +8,23 @@
         padding: 20px;
     }
     #navbar .nav-logo{
-        font-size: 2rem;
-        position: absolute;
+        display: none;
+
+    }
+    .hidden{
+        display: block !important;
+        font-size: 1.5rem;
+        position: fixed;
         top: 8px;
-        left: 0;
+        left: 20px;
+        z-index: 100;
+    }
+    .hidden img{
+        width: 30px;
+    }
+    .hidden a{
+        text-decoration: none;
+        color: black;
     }
     .hamburger{
         display: block;
