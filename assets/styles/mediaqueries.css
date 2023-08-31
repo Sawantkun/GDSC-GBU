@@ -42,11 +42,11 @@
         width: 30px;
     }
     #navbar .develop{
-        position: absolute;
-        bottom: 120px;
+        position: relative;
+        bottom: 50px;
         display: block;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     #navbar .nav-left,#navbar .nav-left-links ul{
         flex-direction: column;
@@ -67,6 +67,9 @@
         padding-right:0px;
         padding: 10px;
         font-size: 1.5rem;
+    }
+        #navbar .nav-left .nav-left-links ul li a:hover{
+        color:#4e92ff ;
     }
     #navbar .nav-right{
         padding-bottom: 200px;
