@@ -81,7 +81,14 @@
     margin-top: 3rem;
     background-color: #34a853;
     border-radius: 0.2rem;
+    
 }
+
+
+
+
+
+
 .photo{
     height: 125%;
     display: grid;
@@ -164,3 +171,43 @@
 .sidp{
     margin-left: -25px !important;
 }
+.omp{
+    margin-left: 5px !important
+
+  
+}
+.nitp{
+    margin-left: 5px !important;
+}
+.ayup{
+    margin-left: 5px !important;
+}
+.harshp{
+    margin-left: 5px !important;
+    display:flex;  
+}
+.shikhap{
+    margin-left: 5px !important;
+
+}
+.photo.shambhavi{
+    margin-left: 16px;
+    margin-top: -62px;
+}
+.photo.om{
+    margin-left: 15px;
+}
+.photo.nitish{
+    margin-left: -20px;
+}
+.photo.ayush {
+    margin-left:-32px;
+
+}
+.photo.harsh{
+    margin-left: 20px;
+}
+
+
+   
+
